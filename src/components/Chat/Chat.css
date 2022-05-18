@@ -1,0 +1,50 @@
+.outerContainer {
+
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  height: 100vh;
+  background-color: aliceblue;
+  margin-left: 10px;
+  
+}
+.textDisplay {
+  margin-top: -45%;
+  width: 30%;
+}
+.userDisplay {
+  margin-top: -30%;
+  margin-left: 70%;
+  width: 15%;
+}
+
+.container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #FFFFFF;
+  border-radius: 8px;
+  height: 95%;
+  width: 40%;
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .outerContainer {
+    height: 90%;
+  }
+
+  .container {
+    width: 100%;
+    height: 90%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1200px) {
+  .container {
+    width: 60%;
+  }
+}
+
